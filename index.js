@@ -1,5 +1,5 @@
 //Base Parameters
-var renderer = new THREE.WebGLRenderer({ antialias: true });
+let renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 if (window.innerWidth > 800) {
